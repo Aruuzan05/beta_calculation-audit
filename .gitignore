@@ -1,0 +1,15 @@
+# Secrets — never commit
+.streamlit/secrets.toml
+
+# Real portfolio data — keep private
+Holdings.xlsx
+Beta_Calculation_Audit*.xlsx
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
